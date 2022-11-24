@@ -5,45 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>car</title>
+    <!-- fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts end -->
     <link rel="stylesheet" href="css/slicknav.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <!-- header area start  -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2">
-            <div class="logo">
-              <a href="index.html">
-                <img src="images/logo/Logo.png" alt="logo" />
-              </a>
+    <header class="mobile_menu_load">
+      <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="logo">
+                <a href="index.html">
+                  <img src="images/logo/Logo.png" alt="logo" />
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="menu">
-              <ul id="menu_two">
-                <li><a href="#">Used Cars</a></li>
-                <li><a href="#">Auctions</a></li>
-                <li><a href="#">New Cars</a></li>
-                <li><a href="#">Sell Cars</a></li>
-                <li><a href="#">Local Dealers</a></li>
-                <li><a href="#">Support</a></li>
-              </ul>
+            <div class="col-sm-8">
+              <div class="menu">
+                <ul id="menu_two">
+                  <li><a href="#UsedCars">Used Cars</a></li>
+                  <li><a href="#Auctions">Auctions</a></li>
+                  <li><a href="#NewCars">New Cars</a></li>
+                  <li><a href="#SellCars">Sell Cars</a></li>
+                  <li><a href="#LocalDealers">Local Dealers</a></li>
+                  <li><a href="#Support">Support</a></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-2">
-            <div class="signUp">
-              <a href="#">Sign Up</a>
+            <div class="col-sm-2">
+              <div class="signUp">
+                <a href="#">
+                  <i class="fa-solid fa-user"></i>
+                  <span>Sign Up</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
     <!-- header area end -->
+
     <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/plugins.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="js/script.js"></script>
