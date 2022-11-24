@@ -28,13 +28,6 @@
         display: none;
     }
 
-    /* .slicknav_menu {
-        display: block;
-        position: fixed;
-        top: 15px;
-        width: 100%;
-        left: 0;
-    } */
     .slicknav_menu {
         display: block;
         position: fixed;

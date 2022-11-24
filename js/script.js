@@ -13,7 +13,7 @@ $(function(){
 // scrol_my_menu_select start 
 // Load Function start
 $(window).on('load', function() {
-    smoothScrolling($("nav ul li a[href^='#']"), 80);
+    smoothScrolling($("header ul li a[href^='#']"), 80);
   });
   // Load Function end
   // Active current Li start
