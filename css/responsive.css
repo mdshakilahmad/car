@@ -51,6 +51,7 @@
         width: 100%;
         top: 65px;
         left: 0;
+        line-height: 35px;
     }
 }
 
@@ -92,7 +93,7 @@
         width: 100%;
         top: 65px;
         left: 0;
-        /* height: 300px; */
+        line-height: 35px;
     }
 }
 
